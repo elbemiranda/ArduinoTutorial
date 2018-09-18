@@ -24,7 +24,7 @@ Para este projeto foram utilizados diversos equipamentos além dos softwares já
 Os sensores foram implantados na protoboard, obedecendo às suas arquiteturas básicas de funcionamento, e conectados ao Arduino por fios. Foi utilizado um capacitor conectado ao GND e ao reset, e ligado após o carregamento do programa para o microcontrolador. Este procedimento foi realizado para estabelecer a comunicação do Java com o Arduino. O esquema de montagem do projeto pode ser verificado na Figura 1.
 
 
-Figura 1: Esquema das conexões dos sensores com o Arduino.
+![Esquema das conexões dos sensores com o Arduino](https://github.com/elbemiranda/ArduinoTutorial/blob/master/ArduinoTutorialProject/Setup.png?raw=true)
 
 Os testes foram realizados primeiramente em um notebook com sistema MacOs. A comunicação com a IDE do Arduino funcionou, porém foram encontradas dificuldades na comunicação do Java e Javino. Dessa forma, outros teste foram realizados em um notebook com Linux, realizadas as mesmas configurações com sucesso.
 Sendo assim, foi possível estabelecer a comunicação entre o Java, Javino e Arduino, coletando os dados dos sensores de temperatura ambiente e luminosidade local, e gerado os gráficos.
